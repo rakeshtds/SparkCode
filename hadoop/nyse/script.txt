@@ -36,7 +36,7 @@ LOCATION '/user/admin/dam/stock_eod';
 #Under File Resources change Type to Jar, 
 #then upload the volume_analytics.jar file from github
 #You can get volume_analytics.jar file from
-#https://github.com/dgadiraju/code/blob/master/hadoop/volume_analytics.jar
+#https://github.com/rakeshtds/code/blob/master/hadoop/volume_analytics.jar
 #Then function name datetranslate
 #class name analytics.nyse.hive.udfs.DateTranslate
 

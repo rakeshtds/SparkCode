@@ -8,7 +8,7 @@ PIP string)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 STORED AS TEXTFILE;
 
---Download deckofcards.txt from github repository www.github.com/dgadiraju/data
+--Download deckofcards.txt from github repository www.github.com/rakeshtds/data
 --mkdir -p ~/demo/data/cards
 --copy file deckofcards.txt to ~/demo/data/cards
 LOAD DATA LOCAL INPATH '/home/cloudera/demo/data/cards/deckofcards.txt' INTO TABLE deck_of_cards;

@@ -28,7 +28,7 @@ sqoop import-all-tables \
   --connect "jdbc:mysql://cdh54itversity-mn0.southeastasia.cloudapp.azure.com:3306/retail_db" \
   --username retail_dba \
   --password itversity \
-  --warehouse-dir /user/itversity/dgadiraju/import-all-tables \
+  --warehouse-dir /user/itversity/rakeshtds/import-all-tables \
   --driver com.mysql.jdbc.Driver
 
 sqoop import-all-tables \
